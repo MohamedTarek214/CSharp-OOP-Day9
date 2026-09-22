@@ -3,4 +3,18 @@ it is recommended to explicitly assign values to enum members when their values
 need to remain fixed or match external systems such as databases or APIs. 
 This prevents problems if the enum members are reordered or new members are added.
 --------------------------------------------------------------------------------------
+Question02: What happens if you assign a value to an enum member that exceeds the underlying type's range?
+If an enum member is assigned a value that exceeds the range of its underlying type,
+a compile-time error occurs because the value cannot be represented by that type.
+---------------------------------------------------------------------------------------------
+Question03: Why can’t you override a sealed property or method? 
+You cannot override a sealed property or method because sealed prevents further overriding in derived classes.
+It is used to stop the inheritance chain from changing that member's implementation.
+----------------------------------------------------------------------------------------------
+Question04: What is the key difference between static and object members?
+
+The key difference is that static members belong to the class itself and can be accessed without creating an object
+while object (instance) members belong to individual objects and require an object to access them.
+------------------------------------------------------------
+
 
