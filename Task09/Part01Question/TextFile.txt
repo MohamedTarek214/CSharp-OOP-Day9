@@ -1,1 +1,6 @@
-﻿
+﻿Question01: Why is it recommended to explicitly assign values to enum members in some cases?
+it is recommended to explicitly assign values to enum members when their values 
+need to remain fixed or match external systems such as databases or APIs. 
+This prevents problems if the enum members are reordered or new members are added.
+--------------------------------------------------------------------------------------
+
